@@ -1,0 +1,38 @@
+[
+  {
+    "itemId": 1,
+    "itemImg": "../images/Group 194.png",
+    "itemTitle": "셀린느",
+    "itemSubTitle": "23SS 셀린느 트리옹프 카드홀더",
+    "orderDate": "2023.06.14",
+    "orderNum": 1613546546546,
+    "deliveryStatus": "배송중"
+  },
+  {
+    "itemId": 2,
+    "itemImg": "../images/Group 194.png",
+    "itemTitle": "셀린느",
+    "itemSubTitle": "23SS 셀린느 트리옹프 카드홀더",
+    "orderDate": "2023.06.14",
+    "orderNum": 1613546546546,
+    "deliveryStatus": "배송완료"
+  },
+  {
+    "itemId": 3,
+    "itemImg": "../images/Group 194.png",
+    "itemTitle": "셀린느",
+    "itemSubTitle": "23SS 셀린느 트리옹프 카드홀더",
+    "orderDate": "2023.06.14",
+    "orderNum": 1613546546546,
+    "deliveryStatus": "주문 취소"
+  },
+  {
+    "itemId": 4,
+    "itemImg": "../images/Group 194.png",
+    "itemTitle": "셀린느",
+    "itemSubTitle": "23SS 셀린느 트리옹프 카드홀더",
+    "orderDate": "2023.06.14",
+    "orderNum": 1613546546546,
+    "deliveryStatus": "주문 취소"
+  }
+]

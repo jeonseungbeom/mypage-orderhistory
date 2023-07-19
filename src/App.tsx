@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//lib
+import Router from "./Router";
+import CssBaseline from "@mui/material/CssBaseline";
+import GlobalStyles from "@mui/material/GlobalStyles";
+import { ThemeProvider } from "@mui/material/styles";
+import { createTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+//component
 
-function App() {
+const theme = createTheme({
+  typography: {
+    // htmlFontSize: 10,
+    fontFamily: "Noto Sans KR, sans-serif",
+  },
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyles
+        styles={{
+          html: {
+            // fontSize: "62.5%",
+          },
+        }}
+      />
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Box
+          sx={{
+            minHeight: "100vh",
+            maxWidth: "23.4375rem",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Router />
+        </Box>
+      </Box>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
